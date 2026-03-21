@@ -1,0 +1,27 @@
+# Robots.txt for Cocanilla Website
+# Allow search engines to crawl and index the website
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+Allow: /img/
+
+# Disallow private or admin pages (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://omarabualrub1.github.io/cocanillaa/sitemap.xml
+
+# Crawl delay (optional - set to allow search engines to crawl at reasonable intervals)
+Crawl-delay: 1
+
+# Google-specific settings
+User-agent: Googlebot
+Allow: /
+
+# Bing-specific settings
+User-agent: Bingbot
+Allow: /

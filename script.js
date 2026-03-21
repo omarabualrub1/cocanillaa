@@ -413,6 +413,54 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// ===== Dark Mode Toggle =====
+function initializeDarkMode() {
+    const themeToggle = document.getElementById('themeToggle');
+    const htmlElement = document.documentElement;
+    const bodyElement = document.body;
+    
+    // Check if user has a saved preference
+    const savedTheme = localStorage.getItem('cocanillaTheme');
+    
+    // Check system preference
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    // Set initial theme
+    let isDarkMode = savedTheme ? savedTheme === 'dark' : prefersDark;
+    
+    if (isDarkMode) {
+        bodyElement.classList.add('dark-mode');
+        themeToggle.textContent = '☀️';
+        themeToggle.title = 'Switch to Light Mode';
+    } else {
+        bodyElement.classList.remove('dark-mode');
+        themeToggle.textContent = '🌙';
+        themeToggle.title = 'Switch to Dark Mode';
+    }
+    
+    // Toggle theme on button click
+    themeToggle.addEventListener('click', () => {
+        isDarkMode = !isDarkMode;
+        
+        if (isDarkMode) {
+            bodyElement.classList.add('dark-mode');
+            themeToggle.textContent = '☀️';
+            themeToggle.title = 'Switch to Light Mode';
+            localStorage.setItem('cocanillaTheme', 'dark');
+        } else {
+            bodyElement.classList.remove('dark-mode');
+            themeToggle.textContent = '🌙';
+            themeToggle.title = 'Switch to Dark Mode';
+            localStorage.setItem('cocanillaTheme', 'light');
+        }
+    });
+}
+
+// Initialize dark mode when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    initializeDarkMode();
+});
+
 // ===== Image Lazy Loading Setup =====
 if ("IntersectionObserver" in window) {
     const imageObserver = new IntersectionObserver((entries, observer) => {
