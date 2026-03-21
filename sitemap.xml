@@ -8,52 +8,12 @@
         <priority>1.0</priority>
     </url>
 
-    <!-- Products Section -->
-    <url>
-        <loc>https://omarabualrub1.github.io/cocanillaa/#products</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <!-- Cheesecakes Category -->
-    <url>
-        <loc>https://omarabualrub1.github.io/cocanillaa/#products</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- Other Desserts Category -->
-    <url>
-        <loc>https://omarabualrub1.github.io/cocanillaa/#products</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- Gallery Section -->
-    <url>
-        <loc>https://omarabualrub1.github.io/cocanillaa/#gallery</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- Contact Section -->
-    <url>
-        <loc>https://omarabualrub1.github.io/cocanillaa/#contact</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- Social Media Links -->
+    <!-- Instagram Social -->
     <url>
         <loc>https://www.instagram.com/cocanillaa</loc>
         <lastmod>2026-03-22</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
 
     <!-- WhatsApp Contact -->
@@ -61,6 +21,6 @@
         <loc>https://wa.me/962798021776</loc>
         <lastmod>2026-03-22</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
     </url>
 </urlset>
