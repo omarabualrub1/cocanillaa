@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Main Home Page -->
+    
     <url>
         <loc>https://omarabualrub1.github.io/cocanillaa/</loc>
         <lastmod>2026-03-22</lastmod>
@@ -8,19 +8,4 @@
         <priority>1.0</priority>
     </url>
 
-    <!-- Instagram Social -->
-    <url>
-        <loc>https://www.instagram.com/cocanillaa</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- WhatsApp Contact -->
-    <url>
-        <loc>https://wa.me/962798021776</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
 </urlset>
