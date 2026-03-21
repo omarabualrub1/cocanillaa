@@ -302,9 +302,8 @@ function sendOrderViaWhatsApp() {
     // Encode message for WhatsApp
     const encodedMessage = encodeURIComponent(message);
     
-    // Replace with your actual WhatsApp business number
-    // Format: country code + number (e.g., 962791234567 for Jordan)
-    const whatsappNumber = '962791234567'; // ← REPLACE WITH YOUR NUMBER
+    // WhatsApp number for order integration
+    const whatsappNumber = '962798021776';
     
     // Create WhatsApp link
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
@@ -409,8 +408,8 @@ window.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const whatsappBtn = document.querySelector('.contact-btn.whatsapp');
     if (whatsappBtn) {
-        // Replace with your WhatsApp number
-        whatsappBtn.href = 'https://wa.me/962791234567'; // ← REPLACE WITH YOUR NUMBER
+        // Set WhatsApp contact number
+        whatsappBtn.href = 'https://wa.me/962798021776';
     }
 });
 

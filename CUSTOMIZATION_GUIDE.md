@@ -54,7 +54,7 @@ In `index.html`, find this line (around line 225):
 ```
 Replace with your WhatsApp number:
 ```html
-<a href="https://wa.me/962791234567" class="contact-btn whatsapp">
+<a href="https://wa.me/962798021776" class="contact-btn whatsapp">
 ```
 Format: `https://wa.me/[COUNTRY_CODE][PHONE_NUMBER]`
 
